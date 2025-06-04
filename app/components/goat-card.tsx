@@ -48,7 +48,7 @@ export default function GoatCard({
   const handleWhatsAppContact = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    const message = `Hi! I'm interested in Goat ID: ${goat.id} - ${goat.description}`;
+    const message = `Hi! I'm interested in Goat ID: ${goat.id}`;
     const whatsappUrl = `https://wa.me/919167880272?text=${encodeURIComponent(
       message
     )}`;
@@ -151,7 +151,7 @@ export default function GoatCard({
           {goat.dateListed && (
             <div className="flex items-center text-xs text-stone-500 mb-3">
               <Calendar className="w-3 h-3 mr-1" />
-              Listed {formatDate(goat.dateListed)}
+              Listed on {formatDate(goat.dateListed)}
             </div>
           )}
 

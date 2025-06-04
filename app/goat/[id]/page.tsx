@@ -35,7 +35,7 @@ export default function GoatDetailPage({ params }: PageProps) {
   }
 
   const handleWhatsAppContact = () => {
-    const message = `Hi! I'm interested in Goat ID: ${goat.id} - ${goat.description}`;
+    const message = `Hi! I'm interested in Goat ID: ${goat.id}`;
     const whatsappUrl = `https://wa.me/919167880272?text=${encodeURIComponent(
       message
     )}`;
@@ -90,7 +90,7 @@ export default function GoatDetailPage({ params }: PageProps) {
           {/* Goat Information */}
           <div className="grid md:grid-cols-3 gap-8">
             {/* Main Info */}
-            <div className="md:col-span-2">
+            <div className="md:col-span-3">
               <Card>
                 <CardContent className="p-6">
                   <div className="flex items-start justify-between mb-4">
@@ -200,61 +200,6 @@ export default function GoatDetailPage({ params }: PageProps) {
                       className="border-amber-500 text-amber-600 hover:bg-amber-50"
                     >
                       Call Now
-                    </Button>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              {/* Farm Info */}
-              {/* <Card>
-                <CardContent className="p-6">
-                  <div className="flex items-center space-x-3 mb-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-amber-600 to-orange-700 rounded-lg flex items-center justify-center">
-                      <span className="text-white font-bold text-lg">AB</span>
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-stone-800">A.B Livestocks</h3>
-                      <p className="text-sm text-stone-600">Al Baraqah Livestocks</p>
-                    </div>
-                  </div>
-                  <p className="text-sm text-stone-600 mb-4">
-                    Premium quality goats from trusted breeders. We ensure the highest standards of animal care and
-                    breeding practices.
-                  </p>
-                  <div className="space-y-2 text-sm">
-                    <div className="flex justify-between">
-                      <span className="text-stone-500">Experience:</span>
-                      <span className="font-medium">4+ Years</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-stone-500">Total Goats:</span>
-                      <span className="font-medium">200+</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-stone-500">Rating:</span>
-                      <span className="font-medium">⭐⭐⭐⭐⭐</span>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card> */}
-
-              {/* Quick Actions */}
-              <Card>
-                <CardContent className="p-6">
-                  <h3 className="font-bold text-stone-800 mb-4">
-                    Quick Actions
-                  </h3>
-                  <div className="space-y-3">
-                    <Button variant="outline" className="w-full justify-start">
-                      <Heart className="w-4 h-4 mr-2" />
-                      Add to Favorites
-                    </Button>
-                    <Button variant="outline" className="w-full justify-start">
-                      <Share2 className="w-4 h-4 mr-2" />
-                      Share this Goat
                     </Button>
                   </div>
                 </CardContent>

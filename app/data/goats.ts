@@ -6,7 +6,7 @@ export const goatsData: Goat[] = [
     videoUrl: "/videos/AB006.mp4",
     status: "available",
     price: 22000,
-    dateListed: "2024-01-15",
+    dateListed: "2025-06-03",
     weight: 37,
   },
   {
@@ -14,7 +14,7 @@ export const goatsData: Goat[] = [
     videoUrl: "/videos/AB001.mp4",
     status: "available",
     price: 24000,
-    dateListed: "2024-01-15",
+    dateListed: "2025-06-03",
     weight: 40,
   },
   {
@@ -22,7 +22,7 @@ export const goatsData: Goat[] = [
     videoUrl: "/videos/AB002.mp4",
     status: "available",
     price: 22000,
-    dateListed: "2024-01-15",
+    dateListed: "2025-06-03",
     weight: 37,
   },
   {
@@ -30,7 +30,7 @@ export const goatsData: Goat[] = [
     videoUrl: "/videos/AB003.mp4",
     status: "available",
     price: 22000,
-    dateListed: "2024-01-15",
+    dateListed: "2025-06-03",
     weight: 37,
   },
   {
@@ -38,7 +38,7 @@ export const goatsData: Goat[] = [
     videoUrl: "/videos/AB004.mp4",
     status: "available",
     price: 27000,
-    dateListed: "2024-01-15",
+    dateListed: "2025-06-03",
     weight: 46,
   },
   {
@@ -46,7 +46,7 @@ export const goatsData: Goat[] = [
     videoUrl: "/videos/AB005.mp4",
     status: "available",
     price: 30000,
-    dateListed: "2024-01-15",
+    dateListed: "2025-06-03",
     weight: 51,
   },
   {
@@ -54,7 +54,7 @@ export const goatsData: Goat[] = [
     videoUrl: "/videos/AB007.mp4",
     status: "available",
     price: 22000,
-    dateListed: "2024-01-15",
+    dateListed: "2025-06-03",
     weight: 37,
   },
   {
@@ -62,7 +62,7 @@ export const goatsData: Goat[] = [
     videoUrl: "/videos/AB008.mp4",
     status: "available",
     price: 26000,
-    dateListed: "2024-01-15",
+    dateListed: "2025-06-03",
     weight: 43,
   },
   {
@@ -70,7 +70,7 @@ export const goatsData: Goat[] = [
     videoUrl: "/videos/AB009.mp4",
     status: "available",
     price: 22000,
-    dateListed: "2024-01-15",
+    dateListed: "2025-06-03",
     weight: 37,
   },
   {
@@ -78,7 +78,7 @@ export const goatsData: Goat[] = [
     videoUrl: "/videos/AB010.mp4",
     status: "available",
     price: 24000,
-    dateListed: "2024-01-15",
+    dateListed: "2025-06-03",
     weight: 40,
   },
   {
@@ -86,7 +86,7 @@ export const goatsData: Goat[] = [
     videoUrl: "/videos/AB011.mp4",
     status: "available",
     price: 23000,
-    dateListed: "2024-01-15",
+    dateListed: "2025-06-03",
     weight: 38,
   },
   {
@@ -94,7 +94,7 @@ export const goatsData: Goat[] = [
     videoUrl: "/videos/AB012.mp4",
     status: "available",
     price: 20000,
-    dateListed: "2024-01-15",
+    dateListed: "2025-06-03",
     weight: 33,
   },
   {
@@ -102,7 +102,7 @@ export const goatsData: Goat[] = [
     videoUrl: "/videos/AB013.mp4",
     status: "available",
     price: 31000,
-    dateListed: "2024-01-15",
+    dateListed: "2025-06-03",
     weight: 52,
   },
   {
@@ -110,7 +110,7 @@ export const goatsData: Goat[] = [
     videoUrl: "/videos/AB014.mp4",
     status: "available",
     price: 32000,
-    dateListed: "2024-01-15",
+    dateListed: "2025-06-03",
     weight: 60,
   },
 ];
